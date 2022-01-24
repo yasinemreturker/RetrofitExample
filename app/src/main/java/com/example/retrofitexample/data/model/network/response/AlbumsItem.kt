@@ -1,4 +1,4 @@
-package com.example.retrofitexample.data.model.network
+package com.example.retrofitexample.data.model.network.response
 
 
 import com.google.gson.annotations.SerializedName

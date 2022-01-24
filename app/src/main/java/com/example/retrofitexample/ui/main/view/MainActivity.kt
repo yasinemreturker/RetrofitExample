@@ -1,4 +1,4 @@
-package com.example.retrofitexample.ui.activities
+package com.example.retrofitexample.ui.main.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
