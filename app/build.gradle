@@ -40,6 +40,7 @@ dependencies {
     def room_version = "2.3.0"
     def OkHttp3_version = "2.3.0"
     def gson_version = "2.8.9"
+    def okhttp3_version = "4.9.3"
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.7.0'
@@ -56,6 +57,9 @@ dependencies {
 
     //GSON
     implementation "com.google.code.gson:gson:$gson_version"
+
+    //Okhttp3
+    implementation "com.squareup.okhttp3:logging-interceptor:$okhttp3_version"
 
     //Annotation processor
     kapt "androidx.room:room-compiler:$room_version"
